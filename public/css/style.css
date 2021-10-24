@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: bg-load 300ms;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/02/23/01/rain-4996916_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  position: relative; 
+  padding-bottom: 19px;
+  min-height: 100vh;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  animation: body-load 1000ms;
+} 
+.container {
+  max-width: 500px;
+  background: rgba(66,69,73,0.5);
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;  
+} 
+input {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+} 
+input:focus {
+  outline: none;
+} 
+input::placeholder {
+  color: #fff;
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: normal;
+  opacity: 0.5; 
+}
+:-moz-placeholder {
+  text-align: center;
+}
+button {
+  background-color: #ffff; 
+  border: none;
+  border-radius: 25px;
+  color: Steelblue;
+  padding: 13px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 30px;
+} 
+button:hover {
+  background-color: #fff;
+  color: rgb(50, 104, 148);
+  cursor: pointer;
+} 
+@keyframes body-load{
+  0%{
+     transform: translateY(-40%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes bg-load{
+  0%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+footer{
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(66,69,73,0.5);
+  font-size: 12px;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

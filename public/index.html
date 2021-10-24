@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type='text/javascript' src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container"  id="body" >
+        <div>
+          <h1>Live Weather App</h1>
+          <p>Find the weather in your city</p>
+        </div>
+        <div class="weather" id="temp" ></div>
+        <form id="weather-form" >
+          <input type="text" id="city-input" placeholder="Enter a city" />
+          <button type="submit" onclick="myFunction()">Submit</button>
+        </form>
+      </div>
+      <footer>
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Adarsh Shukla</p>
+      </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
