@@ -11,7 +11,8 @@
 
 A web application to get real-time weather updates across the world.
 
-### 🏠 [Homepage](https://weather-city-web-app.herokuapp.com/)
+### 🏠 Homepage
+<img src = "https://i.imgur.com/vTgW82g.png"/>
 
 ### ✨ [Demo](https://weather-city-web-app.herokuapp.com/)
 
