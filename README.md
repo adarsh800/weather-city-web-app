@@ -35,7 +35,7 @@ npm run start
 * Github: [@Adarsh800](https://github.com/Adarsh800)
 * LinkedIn: [@adarsh-shukla-29412b11a](https://linkedin.com/in/adarsh-shukla-29412b11a)
 
-***
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
