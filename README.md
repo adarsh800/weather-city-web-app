@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Weather City App 👋</h1>
+<h1 align="left">Weather City App </h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.5-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> The web application to get real-time weather updates across the world.
+A web application to get real-time weather updates across the world.
 
 ### 🏠 [Homepage](weather-city-web-app.herokuapp.com)
 
