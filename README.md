@@ -11,6 +11,17 @@
 
 A web application to get real-time weather updates across the world.
 
+### Prerequisites
+- node >= 16.4
+- npm >= 7.18
+- apicache >= 1.6.2
+- cors >= 2.8.5
+- dotenv >= 10.0.0
+- express >= 4.17.1
+- express-rate-limit >= 5.5.0
+- needle >= 3.0.0
+- path >= 0.12.7
+
 ### 🏠 Homepage
 <img src = "https://i.imgur.com/vTgW82g.png"/>
 
